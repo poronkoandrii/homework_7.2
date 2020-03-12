@@ -1,0 +1,103 @@
+body {
+  background-color: #2b81ac;
+}
+.mainer {
+  max-width: 1420px;
+  margin: 25px auto;
+  background-color: #3399cc;
+  padding-bottom: 130px;
+}
+
+.mainer h1,
+.mainer h1 i {
+  font-size: 22px;
+  color: #fff;
+  line-height: 99px;
+}
+i {
+  font-family: "weather-icons";
+  font-style: normal;
+  font-size: 30px;
+}
+.mainer h2 {
+  font-size: 16px;
+  color: #fff;
+  margin: 35px 0 0 0;
+}
+.block-main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.block-weather {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+}
+.block-weather ul {
+  font-size: 0;
+}
+.block-weather ul li {
+  display: inline-block;
+  font-size: 19px;
+  padding: 35px 0 0 0;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  height: 150px;
+}
+
+.block-weather ul li:first-child {
+  width: 50%;
+  background-color: #3399cc;
+}
+.block-weather ul li:nth-child(2) {
+  width: 25%;
+  background-color: #33cccc;
+}
+.block-weather ul li:nth-child(3) {
+  width: 25%;
+  background-color: #996699;
+}
+.block-weather ul li:nth-child(4) {
+  width: 25%;
+  background-color: #c24747;
+}
+.block-weather ul li:nth-child(5) {
+  width: 25%;
+  background-color: #e2674a;
+}
+.block-weather ul li:nth-child(6) {
+  width: 25%;
+  background-color: #ffcc66;
+}
+.block-weather ul li:nth-child(7) {
+  width: 25%;
+  background-color: #99cc99;
+}
+.block-weather ul li:nth-child(8) {
+  width: 25%;
+  background-color: #99cc99;
+}
+.block-weather ul li:nth-child(9) {
+  width: 50%;
+  background-color: #cc6699;
+}
+.block-weather ul li:nth-child(10) {
+  width: 25%;
+  background-color: #339966;
+}
+.block-weather ul li:last-child {
+  width: 100%;
+  background-color: #666699;
+}
+.block-main .temp {
+  font-size: 25px;
+}
+.block-weather ul:hover li {
+  opacity: 0.6;
+}
+.block-weather ul:hover li:hover {
+  opacity: 1;
+}

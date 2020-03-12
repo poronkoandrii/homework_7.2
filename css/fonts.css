@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "weather-icons";
+  src: url(../font/weathericons-regular-webfont.eot);
+  src: url(../font/weathericons-regular-webfont.eot) format("embedded-opentype"),
+    url(../font/weathericons-regular-webfont.ttf) format("truetype"),
+    url(../font/weathericons-regular-webfont.woff) format("woff");
+}
